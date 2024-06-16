@@ -4,5 +4,6 @@ import HeroSection from '@/components/Hero'
 import Button from '@/components/Button'
 import ListShoeCard from '@/components/ListShoeCard'
 import PopularProductsSection from '@/components/PopularProducts'
+import SuperQualitySection from '@/components/SuperQuality'
 
-export { Header, Footer, HeroSection, Button, ListShoeCard, PopularProductsSection }
+export { Header, Footer, HeroSection, Button, ListShoeCard, PopularProductsSection, SuperQualitySection }

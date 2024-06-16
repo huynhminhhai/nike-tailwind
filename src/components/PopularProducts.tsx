@@ -26,7 +26,7 @@ const PopularProductCard = ({ img, name, price }: PopularProductProps) => {
 
 const PopularProductsSection = () => {
   return (
-    <section id='products' className='padding'>
+    <section id='products' className='padding max-sm:pt-14'>
       <div className='max-container'>
         <div className='flex flex-col justify-start gap-5 max-sm:gap-2'>
           <h2 className='text-4xl font-palanquin font-bold'>
