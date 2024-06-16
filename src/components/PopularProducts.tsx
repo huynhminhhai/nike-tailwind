@@ -26,8 +26,8 @@ const PopularProductCard = ({ img, name, price }: PopularProductProps) => {
 
 const PopularProductsSection = () => {
   return (
-    <section id='products' className='padding border-2 border-red-500'>
-      <div className='max-container border-2 border-green-500'>
+    <section id='products' className='padding'>
+      <div className='max-container'>
         <div className='flex flex-col justify-start gap-5 max-sm:gap-2'>
           <h2 className='text-4xl font-palanquin font-bold'>
             Our <span className='text-coral-red'>Popular</span> Products
@@ -37,7 +37,7 @@ const PopularProductsSection = () => {
             and value
           </p>
         </div>
-        <div className='mt-16 max-sm:mt-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-14 sm:gap-4'>
+        <div className='mt-16 max-sm:mt-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-14 max-sm:gap-8'>
           {products.map((item) => (
             <div key={item.name}>
               <PopularProductCard img={item.imgURL} name={item.name} price={item.price} />
