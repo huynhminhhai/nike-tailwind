@@ -4,6 +4,7 @@ import {
   PopularProductsSection,
   ServicesSection,
   SpecialOfferSection,
+  SubscribeSection,
   SuperQualitySection
 } from '@/components'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesSection />
       <SpecialOfferSection />
       <CustomerReviewSection />
+      <SubscribeSection />
     </main>
   )
 }

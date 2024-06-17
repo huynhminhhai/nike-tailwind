@@ -8,6 +8,7 @@ import SuperQualitySection from '@/components/SuperQuality'
 import ServicesSection from '@/components/Services'
 import SpecialOfferSection from '@/components/SpecialOffer'
 import CustomerReviewSection from '@/components/CustomerReview'
+import SubscribeSection from '@/components/Subscribe'
 
 export {
   Header,
@@ -19,5 +20,6 @@ export {
   SuperQualitySection,
   ServicesSection,
   SpecialOfferSection,
-  CustomerReviewSection
+  CustomerReviewSection,
+  SubscribeSection
 }
