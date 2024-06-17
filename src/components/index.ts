@@ -6,6 +6,7 @@ import ListShoeCard from '@/components/ListShoeCard'
 import PopularProductsSection from '@/components/PopularProducts'
 import SuperQualitySection from '@/components/SuperQuality'
 import ServicesSection from '@/components/Services'
+import SpecialOfferSection from '@/components/SpecialOffer'
 
 export {
   Header,
@@ -15,5 +16,6 @@ export {
   ListShoeCard,
   PopularProductsSection,
   SuperQualitySection,
-  ServicesSection
+  ServicesSection,
+  SpecialOfferSection
 }
