@@ -1,4 +1,4 @@
-import { HeroSection, PopularProductsSection, SuperQualitySection } from '@/components'
+import { HeroSection, PopularProductsSection, ServicesSection, SuperQualitySection } from '@/components'
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <HeroSection />
       <PopularProductsSection />
       <SuperQualitySection />
+      <ServicesSection />
     </main>
   )
 }
