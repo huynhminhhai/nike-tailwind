@@ -1,4 +1,5 @@
 import {
+  CustomerReviewSection,
   HeroSection,
   PopularProductsSection,
   ServicesSection,
@@ -14,6 +15,7 @@ export default function Home() {
       <SuperQualitySection />
       <ServicesSection />
       <SpecialOfferSection />
+      <CustomerReviewSection />
     </main>
   )
 }

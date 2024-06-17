@@ -7,6 +7,7 @@ import PopularProductsSection from '@/components/PopularProducts'
 import SuperQualitySection from '@/components/SuperQuality'
 import ServicesSection from '@/components/Services'
 import SpecialOfferSection from '@/components/SpecialOffer'
+import CustomerReviewSection from '@/components/CustomerReview'
 
 export {
   Header,
@@ -17,5 +18,6 @@ export {
   PopularProductsSection,
   SuperQualitySection,
   ServicesSection,
-  SpecialOfferSection
+  SpecialOfferSection,
+  CustomerReviewSection
 }

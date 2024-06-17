@@ -18,7 +18,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`flex flex-row items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none  rounded-full ${bgColor} ${textColor} ${borderColor}`}
+      className={`flex flex-row items-center gap-2 px-7 py-4 max-sm:w-full max-sm:justify-center border font-montserrat text-lg leading-none rounded-full ${bgColor} ${textColor} ${borderColor}`}
     >
       {title} {icon && <Image src={icon} alt='icon' width={20} height={20} className='ml-2 rounded-full ' />}
     </button>
